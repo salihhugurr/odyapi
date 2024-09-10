@@ -14,10 +14,22 @@ const Footer = () => {
           className="flex gap-2 mt-4 group items-center text-center"
         >
           <p className="text-xs md:text-base group-hover:text-red-400 text-gray-500 font-semibold">
-            {t("Address")}:
+            {t("Address1")}:
           </p>
           <p className="text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
             Döşeme mahallesi 60075 SK. Baysan Sitesi A1 Blok No:4/A Seyhan/Adana
+          </p>
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.google.com/maps/place/%C5%9Eahintepe,+6.+Sk.+No:1,+01250+Sar%C4%B1%C3%A7am%2FAdana/@37.0311476,35.4105712,21z/data=!4m10!1m2!2m1!1sYavuz+Sultan+Selim,+6.+Sokak+no+1,+Sar%C4%B1%C3%A7am%2FAdana!3m6!1s0x1528921f0a521ccb:0x923bf57aee839528!8m2!3d37.0311522!4d35.4108562!15sCjJZYXZ1eiBTdWx0YW4gU2VsaW0sIDYuIFNva2FrIG5vIDEsIFNhcsSxw6dhbS9BZGFuYZIBEWNvbXBvdW5kX2J1aWxkaW5n4AEA!16s%2Fg%2F11s9hzjzj1?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D"
+          className="flex gap-2 mt-2 group items-center text-center"
+        >
+          <p className="text-xs md:text-base group-hover:text-red-400 text-gray-500 font-semibold">
+            {t("Address2")}:
+          </p>
+          <p className="text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
+            Akkuyu Mahallesi 6 Sokak No:1 Sarıçam/Adana
           </p>
         </Link>
         <Link
