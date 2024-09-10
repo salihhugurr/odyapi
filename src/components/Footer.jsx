@@ -16,8 +16,8 @@ const Footer = () => {
           <p className="text-xs md:text-base group-hover:text-red-400 text-gray-500 font-semibold">
             {t("Address1")}:
           </p>
-          <p className="text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
-            Döşeme mahallesi 60075 SK. Baysan Sitesi A1 Blok No:4/A Seyhan/Adana
+          <p className="flex gap-2 text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
+            Döşeme mahallesi 60075 SK. Baysan Sitesi A1 Blok No:4/A Seyhan/Adana 
           </p>
         </Link>
         <Link
@@ -28,8 +28,24 @@ const Footer = () => {
           <p className="text-xs md:text-base group-hover:text-red-400 text-gray-500 font-semibold">
             {t("Address2")}:
           </p>
-          <p className="text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
-            Akkuyu Mahallesi 6 Sokak No:1 Sarıçam/Adana
+          <p className="flex gap-2 text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
+            Akkuyu Mahallesi 6 Sokak No:1 Sarıçam/Adana <p className="text-base text-red-300">
+            {t('warehouse')}
+            </p>
+          </p>
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.google.com/maps/place/4.+Organize+Sanayi+B%C3%B6lgesi/@37.0866478,37.4396665,18.5z/data=!4m14!1m7!3m6!1s0x1531e5a4740d7dd9:0x47db02e2baf6f413!2s4.+Organize+Sanayi+B%C3%B6lgesi!8m2!3d37.0858986!4d37.4411658!16s%2Fg%2F11hysqb89c!3m5!1s0x1531e5a4740d7dd9:0x47db02e2baf6f413!8m2!3d37.0858986!4d37.4411658!16s%2Fg%2F11hysqb89c?entry=ttu&g_ep=EgoyMDI0MDkwOC4wIKXMDSoASAFQAw%3D%3D"
+          className="flex gap-2 mt-2 group items-center text-center"
+        >
+          <p className="text-xs md:text-base group-hover:text-red-400 text-gray-500 font-semibold">
+            {t("Address3")}:
+          </p>
+          <p className="flex gap-2 text-xs md:text-base group-hover:text-red-300 text-gray-400 font-semibold">
+            4. Organize Sanayi Bölgesi 83425 Nolu Cadde Şehitkamil/Gaziantep <p className="text-base text-red-300">
+            {t('warehouse')}
+            </p>
           </p>
         </Link>
         <Link

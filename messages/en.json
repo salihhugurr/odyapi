@@ -100,6 +100,7 @@
       "Purchasing Consultancy": "Purchasing Consultancy",
       "Address1": "Address 1",
       "Address2": "Address 2",
+      "Address3": "Address 3",
       "Phone": "Phone",
       "Email": "Email",
       "Who Are We?": "Who Are We?",
@@ -107,6 +108,7 @@
       "odyapi2": "We work with modern technology and our expert team to reduce the complexity of export and import processes and make it easier for our customers. We manage processes meticulously and aim to keep our customers satisfied at the highest level.",
       "odyapi3": "At Od Construction and Consultancy, we also place great importance on reporting processes. By regularly providing detailed reports to our customers, we ensure that they see every stage of their business clearly. This allows them to better plan and manage their operations.",
       "odyapi4": "We are constantly striving to gain the trust of our customers and provide them with the most suitable solutions for their needs. Od Construction and Consultancy would be delighted to be your reliable partner in your export and import business.",
-      "odyapi5": "Feel free to contact us for more information about our services. Od Construction and Consultancy is here to make your export and import easier!"
+      "odyapi5": "Feel free to contact us for more information about our services. Od Construction and Consultancy is here to make your export and import easier!",
+      "warehouse": "(Warehouse)"
     }
 }
